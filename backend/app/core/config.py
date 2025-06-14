@@ -1,5 +1,6 @@
 from typing import List, Optional
-from pydantic import BaseSettings, AnyHttpUrl
+from pydantic_settings import BaseSettings
+from pydantic import AnyHttpUrl
 import secrets
 import os
 
